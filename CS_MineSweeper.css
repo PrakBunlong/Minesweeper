@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+/* the board for the mine game */
+#board {
+  width: 1100px;
+  height: 1100px;
+  border: 10px solid darkgreen;
+  background-color: lightgreen;
+  margin: 0 auto;
+  /* display box from left to right */
+  display: flex;
+  flex-wrap: wrap;
+}
+/* tile of the board */
+#board div {
+  width: 53px;
+  height: 53px;
+  border: 1px solid black;
+
+  /* style the text */
+  font-size: 40px;
+  display: flex;
+  /* center the text in the tile */
+  justify-content: center; /*center hozitaly*/
+  align-items: center; /*center verticaly*/
+}
+/* when click the tile will turn darker */
+.tile-clicked {
+  background: orange;
+}
+/* style of the flag button */
+#flag-button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: lightgreen;
+  border: 10px black;
+}
+
+.x1 {
+  color: blue;
+}
+.x2 {
+  color: green;
+}
+.x3 {
+  color: red;
+}

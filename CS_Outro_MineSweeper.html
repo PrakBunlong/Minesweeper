@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Cs_Outro.js"></script>
+    <title>Outro</title>
+    <style>
+      
+        body {
+          background-image: url('rick2.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ margin-left: 180px;
+  font-size: 2vmin;
+  font-family: JetBrains Mono, monospace;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #e4bb68;
+}
+
+.string {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  animation: move 4s infinite;
+}
+
+.greeting {
+  position: relative;
+  top: 12.0vmin;
+  animation: white-out 5s infinite;
+}
+
+.closure::after {
+  float: left;
+  content: '';
+  position: absolute;
+  height: 25vmin;
+  width: 40vmin;
+  /* background: rgb(96,170,151); */
+  transform: translate(-45vmin, -24.5vmin);
+}
+
+.closure::before {
+  content: '';
+  margin-right: 100px;
+  position: absolute;
+  height: 25vmin;
+  width: 40vmin;
+  
+  transform: translate(-40vmin, 5vmin);
+}
+
+.en {
+  color: #fa8231;
+}
+
+.es {
+  color: white;
+}
+
+.de {
+  color: darkorchid;
+}
+
+.it {
+  color: orange;
+}
+
+@keyframes move {
+  25% {
+    transform: translatey(-5.8vmin);
+    opacity: 1;
+  }
+  50% {
+    transform: translatey(-11vmin);
+  }
+  75% {
+    transform: translatey(-16.5vmin);
+  }
+}
+
+        </style>
+</head>
+<body>
+  <img src="deadserver.gif" alt="">
+  
+  <h1>Never<span style="color:white;"><span style="color:#e06c75;">.</span></span><span style="color:black;">Gonna</span>("</h1>
+  <div class="string">
+    <h1 class="greeting en">Give You Up</h1>
+    <h1 class="greeting es"></h1>
+    <h1 class="greeting de">Let You Down</h1>
+    <h1 class="greeting it">Run Around And Desert You</h1>  
+  </div>
+  <h1 class="closure">");</h1>
+  <img src="deadserver.gif" alt="">
+  
+    
+
+ 
+    <!-- <hr size ="5" color="darkgreen">
+    <video width="600" controls>
+        <source src="kisuke Urahara Kannon Biraki Benihime Aratame .mp4" type="video/mp4">
+    </video>
+    <p>
+        Video courtesy of: 
+        <a href="https://youtu.be/AGLaCSLP8Q4" color="black" target="_blank">
+            浦原喜助の必殺技と銀行員
+        </a>
+    </p> -->
+</body>
+</html>
